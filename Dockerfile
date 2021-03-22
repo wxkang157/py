@@ -1,5 +1,5 @@
 FROM pytorch/manylinux-cuda100
-run pip install opencv-python
-run pip install tensorboardX
-run apt upadate
-run apt install libgl1-mesa-glx
+RUN pip install opencv-python
+RUN pip install tensorboardX
+RUN apt upadate
+RUN apt install libgl1-mesa-glx
