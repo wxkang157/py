@@ -1,5 +1,5 @@
 FROM pytorch/pytorch:1.5.1-cuda10.1-cudnn7-runtime
 RUN pip install opencv-python
 RUN pip install tensorboardX
-apt update
-apt install libgl1-mesa-glx
+RUN sudo apt update
+RUN sudo apt install libgl1-mesa-glx
