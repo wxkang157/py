@@ -1,6 +1,2 @@
-FROM pytorch/pytorch:1.5.1-cuda10.1-cudnn7-runtime
-RUN pip install opencv-python
+FROM lordvoldemort28/pytorch-opencv:dev
 RUN pip install tensorboardX
-RUN apt update
-RUN y
-RUN apt install libgl1-mesa-glx
