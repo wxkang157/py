@@ -1,2 +1,2 @@
-FROM endertekin/pytorch-opencv:latest
+FROM mindfreeze/pytorch-opencv-armhf
 RUN pip install tensorboardX
