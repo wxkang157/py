@@ -1,2 +1,2 @@
-FROM lordvoldemort28/pytorch-opencv:dev
+FROM endertekin/pytorch-opencv:latest
 RUN pip install tensorboardX
